@@ -8,6 +8,7 @@
   "keywords": [
     "gatsby",
     "gatsby-plugin",
+    "gatsby-plugin-automatic-redirects",
     "redirects",
     "redirection",
     "automatic",
