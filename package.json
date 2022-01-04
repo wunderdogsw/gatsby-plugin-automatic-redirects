@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-plugin-automatic-redirects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wunderdog <hello@wunderdog.fi>",
+  "license": "MIT",
+  "description": "Automatically tracks page path changes and creates redirects via Gatsby's createRedirect action from the previous paths to the new paths",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "redirects",
+    "redirection",
+    "automatic",
+    "cms",
+    "content management system",
+    "slugs",
+    "paths",
+    "contentful",
+    "seo"
+  ],
+  "bugs": {
+    "url": "https://github.com/wunderdogsw/gatsby-plugin-automatic-redirects/issues"
+  },
+  "homepage": "https://github.com/wunderdogsw/gatsby-plugin-automatic-redirects#readme",
+  "dependencies": {
+    "app-root-path": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.4.0",
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  }
+}
